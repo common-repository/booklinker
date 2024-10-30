@@ -1,0 +1,59 @@
+.bookLinkerDiv {
+	display:none;
+	position:absolute;
+	background-color:#eeeeee;
+	width:580px;
+	height:230px;
+	padding-left:1em;
+	padding-top:0.5em;
+	z-index: 9002;
+}
+.bookLinkerImage {
+	float:left;
+	margin-right:1em;
+}
+.bookLinkerList {
+	list-style:none;
+}
+.bookLinkerList li {
+	display:inline;
+	padding-right:1em;
+}
+.bookLinkerTitle {
+	font-weight:bold;
+	font-size:1.5em;
+	padding-bottom:0.5em;
+}
+.bookLinkerAuthor {
+	font-style:italic;
+	padding-bottom:0.5em;
+}
+.bookLinkerLink {
+	border:none;
+}
+.bookLinkerLink img {
+	border:none;
+}
+
+a.bookLinkerCloseLink, a.bookLinkerCloseLink:visited {
+	font-weight:bold;
+	color:#000;
+	padding-bottom:0.5em;
+}
+#shield {
+/*position:absolute;*/
+background-color:#111;
+opacity: 0.65;
+filter:alpha(opacity=65);
+/*zoom:1;*/
+z-index: 9001;
+top:0px;
+left:0px;
+height:100%;
+width:100%;
+display:none;
+border:1px solid red;
+}
+#bookLinkerCollection{
+display:none;
+}
